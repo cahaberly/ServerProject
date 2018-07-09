@@ -13,7 +13,7 @@ IP Address: 18.217.251.235
 
 SSH Port: 80
 
-URL:
+URL: 18.217.251.235
 
 ## Summary of software installion and configuration changes
 
@@ -65,6 +65,9 @@ The following line was changed from:
 To:
 
 `engine = create_engine('postgresql://catalog:catalog@localhost/catalog')`
+
+
+Verified remote access was disable for postgresql via the `/etc/postgresql/9.1/main/pg_hba.conf' file
 
 
 Also in the catalog_app.py program the follwing lines were changed from:
