@@ -81,6 +81,8 @@ to:
 
 This correction was needed to point the client_secrets.json to the correct location on the server.
 
+Created an `.htaccess` file in `/var/www/html` so the `.git` directory would not be accesible by the public
+
 ## Installed the following software
 
 apache2
@@ -110,6 +112,8 @@ https://www.pythoncentral.io/how-to-install-sqlalchemy/
 https://stackoverflow.com/questions/12906351/importerror-no-module-named-psycopg2
 
 http://modwsgi.readthedocs.io/en/develop/user-guides/quick-configuration-guide.html
+
+https://stackoverflow.com/questions/6142437/make-git-directory-web-inaccessible
 
 ### License
 
