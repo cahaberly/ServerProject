@@ -11,7 +11,7 @@ The purpose of the project is to learn how to setup, access, secure and configur
 
 IP Address: 18.217.251.235
 
-SSH Port: 80
+SSH Port: 2200
 
 URL: 18.217.251.235
 
