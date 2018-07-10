@@ -83,6 +83,8 @@ This correction was needed to point the client_secrets.json to the correct locat
 
 Created an `.htaccess` file in `/var/www/html` so the `.git` directory would not be accesible by the public
 
+After submission, the server could not be reached. I had to enable port 2200 on my LightSail management console under networking.
+
 ## Installed the following software
 
 apache2
