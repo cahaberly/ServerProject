@@ -85,6 +85,10 @@ Created an `.htaccess` file in `/var/www/html` so the `.git` directory would not
 
 After submission, the server could not be reached. I had to enable port 2200 on my LightSail management console under networking.
 
+ports 22, 2222 and 2222/tcp were open, disabled ufw disabled and ports 22, 2222 and 2222/tcp, re-enabled ufw
+
+motd message reported 3 packages needed to be updated, corrected the issue by running `sudo apt-get dist-upgrade`
+
 ## Installed the following software
 
 apache2
@@ -116,6 +120,10 @@ https://stackoverflow.com/questions/12906351/importerror-no-module-named-psycopg
 http://modwsgi.readthedocs.io/en/develop/user-guides/quick-configuration-guide.html
 
 https://stackoverflow.com/questions/6142437/make-git-directory-web-inaccessible
+
+https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-14-04
+
+https://serverfault.com/questions/262751/update-ubuntu-10-04/262773#262773
 
 ### License
 
